@@ -1,0 +1,109 @@
+.loginbd{
+	background-color: #fff;
+}
+.headerbox{
+	/*height: 6.5rem;*/
+	background-color: #75aced;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	/*border: 1px solid red;*/
+}
+.backico{
+	float: left;
+	padding-top: 3rem;
+}
+.icon-search{
+	font-size: 2.4rem;
+	font-family: iconfont;
+	color: white;
+}
+.title-text{
+	text-align: center;
+	font-size: 1.5rem;
+	color: white;
+	/*border: 1px solid red;*/	
+	padding-top: 3rem;
+	padding-right: 1rem;
+	padding-bottom: 1.5rem;
+}
+
+
+.text-content{
+	padding:0 2rem
+}
+.text-content-box{
+
+	/*float: left;*/
+}
+.text-title-h3{
+	/*float: left;*/
+	font-size: 1.3rem;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	font-weight: bold;
+}
+.moneybox{
+	float: right;
+	border: 1px solid #73acef;
+	width: 7rem;
+	line-height: 6rem;
+	font-size: 2.5rem;
+	color: #73ACEF;
+	text-align: center;
+	font-weight: bold;
+	/*margin-top: 2rem;*/
+}
+.text-content-p{
+	float: left;
+	/*border: 1px solid red;*/
+}
+.text-content-p p{
+	font-size: 1.2rem;
+	/*border: 1px solid blue;*/
+	line-height:1.7rem;
+}
+.text-content-bot{
+	padding-top: 1rem;
+	line-height: 1.4rem;
+	font-size: 1rem;
+	/*white-space:nowrap*/
+}
+.center-box{
+	text-align: center;
+	padding-top: 2rem;
+}
+.center-box-btn{
+	color: #5d5d5d;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	/*margin-top: 20rem;*/
+}
+.center-btn-span{
+	font-size: .5rem;
+}
+.center-box-img{
+	width: 100%;
+	font-size: 0;
+	display: block;
+}
+.center-box-images{
+	margin-top: 2rem;
+}
+.center-box-images2{
+	border: .1rem solid #78ABED;
+	margin-top: 2rem;
+}
+.start-ico{
+	color: #aaa;
+	font-size: 1.4rem;
+}
+.text-pingjia{
+	padding-top: 2rem;
+}
+.text-button{
+	/*text-align: center;*/
+	padding-top: 1.5rem;
+	width: 100%;
+	border-bottom: 1px solid #aaaaaa;
+	line-height: 2rem;
+}

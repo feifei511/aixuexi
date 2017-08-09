@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>登陆</title>
+		<link rel="stylesheet" href="../css/base.css" type="text/css" />
+		<link rel="stylesheet" href="../css/student.css" type="text/css" />
+		<script src="../js/vue.js"></script>
+		<script src="../js/base.js"></script>
+	</head>
+	<body class="loginbd">
+		<div id="app">
+			<section class="logobox">
+				<i class="icon icon-logo"></i>
+				<div class="txt">爱学习</div>
+			</section>
+			<section class="loginbox">
+				<input class="lineinput" v-model="phone" placeholder="手机号码" />
+				<input class="lineinput code" v-model="code" placeholder="短信验证码" />
+				<span class="codetext tap" v-on:click="GetCode">获取验证码</span>
+				<div class="btnconfirm tap" v-on:click="Login">立即登录</div>
+			</section>
+			<v-message :message="message" v-show="showmessage"></v-message>
+		</div>
+		<script>
+			new Vue({
+			     el: '#app',    
+			     data: function () {
+				   	return {
+				   		phone:'',
+				   		code:'',
+				   		message:'',
+				   		showmessage:false
+				   	}
+			     },
+			      methods: {
+			        InitView: function () {
+			       
+			        },
+			        GetCode(){
+			        	
+			        	
+			        },
+			        Login(){	
+			        	const  _this = this ; 
+			        	_this.message = '登录成功';
+			        	_this.showmessage = true;
+			        	window.setTimeout(function(){
+			        		_this.showmessage = false;
+			        	},500);
+			        	
+			        }
+			     },mounted: function () {
+			        this.InitView();
+			     }
+			})
+		</script>
+	</body>
+</html>

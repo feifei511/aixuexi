@@ -1,0 +1,700 @@
+
+/*登陆*/
+.loginbd{background-color: #75ACED;}
+.loginbd .logobox , .loginbd .loginbox{text-align: center;margin-top: 5rem;}
+.loginbd .logobox .icon-logo{color:white;font-size: 12rem;margin: 0 auto;}
+.loginbd .logobox .txt{font-size: 2.3rem;color: white;font-weight: bold;margin-top: -.5rem;letter-spacing:.6rem;text-indent:.4rem}
+.loginbd .loginbox input.lineinput::-webkit-input-placeholder{/* WebKit browsers*/color:white;}
+.loginbd .loginbox .lineinput{width:24rem;border-bottom: 1px solid white;padding-left: .5rem;}
+.loginbd .loginbox .lineinput.code{width:15.8rem;margin-top: 2rem;}
+.loginbd .codetext{font-size: 1.2rem;width: 7rem;color: white;border: 1px solid white;border-radius: 3rem;padding: .4rem 1rem;}
+.loginbd .btnconfirm{font-size: 1.3rem;width: 15rem;color: white;border: 1px solid white;border-radius: 2rem;padding: .4rem 1rem;margin: 0 auto;margin-top: 5rem;;}
+
+
+/*我的课程*/
+.myCourse{background-color: #fff;}
+.myCourse .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.myCourse .backico{float: left;padding-top: 1.5rem;}
+.myCourse .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.myCourse .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.myCourse .text-content{padding:0 2rem}
+.myCourse .text-content-box{float: left;}
+.myCourse .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.myCourse .moneybox{float: right;border: 1px solid #73acef;width: 8rem;line-height: 6rem;font-size: 3rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.myCourse .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.myCourse .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.myCourse .center-box{text-align: center;padding-top: 2rem;}
+.myCourse .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.myCourse .center-btn-span{font-size: .5rem;}
+.myCourse .text-button{/*text-align: center;*/padding-top: 1.5rem;width: 100%;border-bottom: 1px solid #aaaaaa;line-height: 2rem;}
+.myCourse .start-ico{color: #aaa;font-size: 1.4rem;}
+.myCourse .text-pingjia{padding-top: 2rem;}
+.myCourse .text-tear{width: 100%;height: 14rem;border: 1px solid #aaa;}
+.myCourse .text-tear-box{padding-top: 1.5rem;}
+
+
+/*一对一辅导 搜索*/
+.searchtask{background-color: #fff;}
+.searchtask .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.searchtask .backico{float: left;padding-top: 1.5rem;}
+.searchtask .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.searchtask .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.searchtask .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.searchtask .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.searchtask .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.searchtask .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.searchtask .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.searchtask .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.searchtask .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.searchtask .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.searchtask .text-content-box{float: left;}
+.searchtask .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.searchtask .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.searchtask .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.searchtask .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.searchtask .center-box{text-align: center;padding-top: 2rem;}
+.searchtask .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.searchtask .center-btn-span{font-size: .5rem;}
+.searchtask .start-ico{color: #aaa;font-size: 1.4rem;}
+.searchtask .midd-box{border: .1rem solid #73acef;border-bottom: none;margin-top: 1.5rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.searchtask .btm-grade{/*margin-top: .5rem;*/}
+.searchtask .btm-left{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.5rem;float: left;line-height: 2.5rem;}
+.searchtask .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.5rem;float: right;line-height: 2.5rem;}
+
+/*作业详情*/
+.tasklistDeails{background-color: #fff;}
+.tasklistDeails .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.tasklistDeails .backico{float: left;padding-top: 1.5rem;}
+.tasklistDeails .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.tasklistDeails .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.tasklistDeails .text-content{padding:0 2rem}
+.tasklistDeails .text-center-border{border: .1rem solid #73acef;margin-top: 1rem;}
+.tasklistDeails .text-content-box{float: left;margin-left: 1rem;}
+.tasklistDeails .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.tasklistDeails .moneybox{float: right;border: 1px solid #73acef;width: 7rem;line-height: 5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;margin-right: 1rem;}
+.tasklistDeails .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.tasklistDeails .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.tasklistDeails .center-box{text-align: center;padding-top: 2rem;}
+.tasklistDeails .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.tasklistDeails .center-btn-span{font-size: .5rem;}
+.tasklistDeails .text-button{/*text-align: center;*/padding-top: 1.5rem;width: 100%;border-bottom: 1px solid #aaaaaa;line-height: 2rem;}
+.tasklistDeails .start-ico{color: #aaa;font-size: 1.4rem;}
+.tasklistDeails .text-pingjia{padding-top: 2rem;}
+.tasklistDeails .text-tear{width: 100%;height: 14rem;border: 1px solid #aaa;}
+.tasklistDeails .text-tear-box{padding-top: 1.5rem;}
+.tasklistDeails .btm-btn{width: 100%;background-color: #78ABED;color: #fff;height: 3rem;border: none;margin-top: 1rem;}
+.tasklistDeails .btm-btn-btn{width: 100%;background-color: #78ABED;color: #fff;height: 3rem;border: none;position: fixed;bottom: 0;}
+
+
+/*作业信息*/
+.taskinfo{background-color: #fff;}
+.taskinfo .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.taskinfo .backico{float: left;padding-top: 1.5rem;}
+.taskinfo .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.taskinfo .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.taskinfo .text-content{padding:0 2rem}
+.taskinfo .text-content-box{float: left;}
+.taskinfo .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.taskinfo .moneybox{float: right;border: 1px solid #73acef;width: 8rem;line-height: 6rem;font-size: 3rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.taskinfo .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.taskinfo .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.taskinfo .center-box{text-align: center;padding-top: 2rem;}
+.taskinfo .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.taskinfo .center-btn-span{font-size: .5rem;}
+.taskinfo .text-button{/*text-align: center;*/padding-top: 1.5rem;width: 100%;border-bottom: 1px solid #aaaaaa;line-height: 2rem;}
+.taskinfo .start-ico{color: #aaa;font-size: 1.4rem;}
+.taskinfo .text-pingjia{padding-top: 2rem;}
+.taskinfo .text-tear{width: 100%;height: 14rem;border: 1px solid #aaa;}
+.taskinfo .text-tear-box{padding-top: 1.5rem;}
+
+
+
+/*作业咨询列表*/
+
+.tasklist{background-color: #fff;}
+.tasklist .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.tasklist .backico{float: left;padding-top: 1.5rem;}
+.tasklist .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.tasklist .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.tasklist .text-content{padding:0 2rem}
+.tasklist .text-center-border{border: .1rem solid #73acef;margin-top: 1rem;}
+.tasklist .text-content-box{float: left;margin-left: 1rem;}
+.tasklist .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.tasklist .moneybox{float: right;border: 1px solid #73acef;width: 7rem;line-height: 5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;margin-right: 1rem;}
+.tasklist .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.tasklist .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.tasklist .center-box{text-align: center;padding-top: 2rem;}
+.tasklist .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.tasklist .center-btn-span{font-size: .5rem;}
+.tasklist .text-button{/*text-align: center;*/padding-top: 1.5rem;width: 100%;border-bottom: 1px solid #aaaaaa;line-height: 2rem;}
+.tasklist .start-ico{color: #aaa;font-size: 1.4rem;}
+.tasklist .text-pingjia{padding-top: 2rem;}
+.tasklist .text-tear{width: 100%;height: 14rem;border: 1px solid #aaa;}
+.tasklist .text-tear-box{padding-top: 1.5rem;}
+.tasklist .btm-btn{width: 100%;background-color: #78ABED;color: #fff;height: 3rem;border: none;margin-top: 1rem;}
+.tasklist .btm-btn-btn{width: 100%;background-color: #78ABED;color: #fff;height: 3rem;border: none;position: fixed;bottom: 0;}
+
+/*新增作业咨询*/
+.addtask{background-color: #fff;}
+.addtask .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.addtask .backico{float: left;padding-top: 1.5rem;}
+.addtask .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.addtask .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.addtask .text-content{padding:0 2rem}
+.addtask .text-content-box{/*border: 1px solid red;*/}
+.addtask .content-div{margin-top: 2rem;border-bottom: .1rem solid #aaa;padding-bottom: .7rem;}
+.addtask .content-div-left{float: left;font-size: 1.2rem;}
+.addtask .content-div-right{float: right;font-size: 1.2rem;}
+.addtask .icon-ttt{color: #aaa;font-size: 1.4rem;margin-right: 1rem;}
+.addtask .content-div-right-span{color: #aaa;}
+.addtask .text-tear{width: 100%;height: 14rem;border: 1px solid #aaa;}
+.addtask .text-tear-box{padding-top: 2rem;}
+.addtask .content-icon-box{text-align: center;}
+.addtask .icon-camera{color: #78ABED;}
+.addtask .btm-btn{width: 100%;background-color: #78ABED;color: #fff;height: 3rem;border: none;position: fixed;bottom: 0;}
+
+/*个人中心*/
+.usercenter{background-color: white;}
+.usercenter .usernav{position: relative;}
+.usercenter .usernav .icon-left{position: absolute;top: 1.2rem;left:1.6rem;font-size: 2.5rem;}
+.usercenter .headerbox .icon-left{font-size:2rem;}
+.usercenter .usernav{padding-top: 2.3rem;height: 13rem;background-color: #75aced;text-align: center;}
+.usercenter .usernav img{width:6rem ;height: 6rem;border-radius: 3rem;margin-bottom:.3rem;margin-top: 1rem;}
+.usercenter .usernav>div{margin-top: .2rem;color:white;font-size: 1.3rem;}
+.usercenter .navlist ul li{padding: .8rem 0;padding-left:2rem;border-bottom: 1px solid #F0F0F0;}
+.usercenter .navlist ul .radio{width: 3.4rem;height: 3.4rem;border-radius: 1.7rem;display: inline-block;background-color: #67C184;line-height: 3.4rem;text-align: center;}
+.usercenter .radio i{font-size: 2rem;color:white;}
+.usercenter .navlist ul li span{margin-left: 1rem;font-size: 1.3rem;}
+.usercenter .navlist ul li{position: relative;}
+.usercenter .navlist .border-right:after{content: ' ' ;width:.8rem;position: absolute;top:2.1rem;right:2rem;height: .8rem;border-top :1px solid #847c7c;border-right :1px solid #847c7c;transform: rotate(45deg);display: inline-block;}
+
+
+/*一对一辅导*/
+.oneOnone{background-color: #fff;}
+.oneOnone .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.oneOnone .backico{float: left;padding-top: 1.5rem;}
+.oneOnone .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.oneOnone .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.oneOnone .text-content{padding:0 2rem}
+.oneOnone .text-content-box{float: left;}
+.oneOnone .text-title-h3{float: left;font-size: 1.2rem; font-weight:bold;padding-top: 2rem;padding-bottom: 1rem;}
+.oneOnone .moneybox{float: right;border: 1px solid #73acef;width: 8rem;line-height: 6rem;font-size: 3rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.oneOnone .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.oneOnone .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.oneOnone .center-box{text-align: center;padding-top: 2rem;}
+.oneOnone .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.oneOnone .center-btn-span{font-size: .5rem;}
+.oneOnone .text-button{/*text-align: center;*/padding-top: 1.5rem;width: 100%;border-bottom: 1px solid #aaaaaa;line-height: 2rem;}
+.oneOnone .start-ico{color: #aaa;font-size: 1.4rem;}
+.oneOnone .text-pingjia{padding-top: 2rem;}
+.oneOnone .text-tear{width: 100%;height: 14rem;border: 1px solid #aaa;}
+.oneOnone .text-tear-box{padding-top: 1.5rem;}
+.oneOnone .hr{margin-top: 1rem;}
+.oneOnone .text-h3{line-height: 2rem; font-size: 1.3rem;font-weight: bold;}
+.oneOnone .stu-text{margin-top: 1rem;width: 70%;float: left;}
+.oneOnone .stu-text-span1{float: left;font-size: .5rem;}
+.oneOnone .stu-text-span2{	float: right;width: 84%;font-size: .5rem;}
+.oneOnone .tea-text{margin-top: 1rem;width: 70%;float: right;}
+.oneOnone .tea-text-span1{float: right;font-size: .5rem;}
+.oneOnone .tea-text-span2{float: left;width: 84%;font-size: .5rem;}
+.oneOnone .text-area{clear:both;margin-top: 2rem;}
+.oneOnone .text-area textarea{	width: 100%;height: 14rem;}
+.oneOnone .text-area button{width: 100%;background-color: #75ACED;outline: none;border-style: none;height: 2.5rem;color: #fff;font-size: 1rem;}
+.oneOnone .btm-btn-box button{width: 100%;outline: none;border-style: none;height: 2.5rem;color: #fff;background-color: #ff0000;position: fixed;bottom: 0;font-size: 1rem;}
+
+/*售后服务*/
+.customer{background-color: #fff;}
+.customer .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.customer .backico{float: left;padding-top: 1.5rem;}
+.customer .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.customer .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.customer .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.customer .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.customer .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.customer .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.customer .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.customer .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.customer .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.customer .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.customer .text-content-box{float: left;}
+.customer .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.customer .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.customer .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.customer .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.customer .center-box{text-align: center;padding-top: 2rem;}
+.customer .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.customer .center-btn-span{font-size: .5rem;}
+.customer .start-ico{color: #aaa;font-size: 1.4rem;}
+.customer .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.customer .btm-grade{/*margin-top: .5rem;*/}
+.customer .btm-left{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.customer .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.customer .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.customer .top-btn1{margin-top: .1rem;width: 48%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .2rem;border: .1rem solid #78ABED;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.customer .top-btn2{margin-top: .1rem;width: 48%;float: right;height: 2.8rem;margin-right: .2rem;background: #78ABED;/*background: red;*/outline: none;border-style: none;color: #fff;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.customer .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.customer .top-btn2:active{background: #fff;color: #333;border: .1rem solid #78ABED;}
+
+
+/*我的课程代付款*/
+.curriculum{background-color: #fff;}
+.curriculum .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.curriculum .backico{float: left;padding-top: 1.5rem;}
+.curriculum .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.curriculum .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.curriculum .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.curriculum .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.curriculum .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.curriculum .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.curriculum .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.curriculum .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.curriculum .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.curriculum .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.curriculum .text-content-box{float: left;}
+.curriculum .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.curriculum .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.curriculum .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.curriculum .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.curriculum .center-box{text-align: center;padding-top: 2rem;}
+.curriculum .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.curriculum .center-btn-span{font-size: .5rem;}
+.curriculum .start-ico{color: #aaa;font-size: 1.4rem;}
+.curriculum .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.curriculum .btm-grade{/*margin-top: .5rem;*/}
+.curriculum .btm-left{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.curriculum .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.curriculum .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.curriculum .top-btn1{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;color:#fff; background: #78ABED; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.curriculum .top-btn2{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;/*background: red;*/outline: none;border-style: none;color: #333;font-size: 1rem;}
+.curriculum .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.curriculum .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.curriculum .top-btn3{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.curriculum .top-btn4{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;/*background: red;*/outline: none;border-style: none;color: #333;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.curriculum .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.curriculum .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.curriculum .icon-clock{font-size: 1.2rem;}
+
+
+/*我的课程待开课*/
+.startcurriculum{background-color: #fff;}
+.startcurriculum .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.startcurriculum .backico{float: left;padding-top: 1.5rem;}
+.startcurriculum .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.startcurriculum .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.startcurriculum .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.startcurriculum .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.startcurriculum .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.startcurriculum .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.startcurriculum .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.startcurriculum .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.startcurriculum .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.startcurriculum .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.startcurriculum .text-content-box{float: left;}
+.startcurriculum .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.startcurriculum .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.startcurriculum .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.startcurriculum .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.startcurriculum .center-box{text-align: center;padding-top: 2rem;}
+.startcurriculum .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.startcurriculum .center-btn-span{font-size: .5rem;}
+.startcurriculum .start-ico{color: #aaa;font-size: 1.4rem;}
+.startcurriculum .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.startcurriculum .btm-grade{/*margin-top: .5rem;*/}
+.startcurriculum .btm-left{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.startcurriculum .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.startcurriculum .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.startcurriculum .top-btn1{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.startcurriculum .top-btn2{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #78ABED;/*background: red;*/outline: none;border-style: none;color: #fff;font-size: 1rem;}
+.startcurriculum .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.startcurriculum .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.startcurriculum .top-btn3{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.startcurriculum .top-btn4{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;/*background: red;*/outline: none;border-style: none;color: #333;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.startcurriculum .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.startcurriculum .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+/*我的课程 待评价*/
+.evaluate{background-color: #fff;}
+.evaluate .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.evaluate .backico{float: left;padding-top: 1.5rem;}
+.evaluate .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.evaluate .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.evaluate .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.evaluate .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.evaluate .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.evaluate .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.evaluate .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.evaluate .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.evaluate .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.evaluate .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.evaluate .text-content-box{float: left;}
+.evaluate .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.evaluate .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.evaluate .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.evaluate .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.evaluate .center-box{text-align: center;padding-top: 2rem;}
+.evaluate .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.evaluate .center-btn-span{font-size: .5rem;}
+.evaluate .start-ico{color: #aaa;font-size: 1.4rem;}
+.evaluate .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.evaluate .btm-grade{/*margin-top: .5rem;*/}
+.evaluate .btm-left{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.evaluate .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.evaluate .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.evaluate .top-btn1{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.evaluate .top-btn2{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;/*background: red;*/outline: none;border-style: none;color: #333;font-size: 1rem;}
+.evaluate .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.evaluate .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.evaluate .top-btn3{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;background: #78ABED;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #fff;}
+.evaluate .top-btn4{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;/*background: red;*/outline: none;border-style: none;color: #333;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.evaluate .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.evaluate .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+/*我的课程 全部*/
+.whole{background-color: #fff;}
+.whole .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.whole .backico{float: left;padding-top: 1.5rem;}
+.whole .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.whole .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.whole .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.whole .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.whole .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.whole .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.whole .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.whole .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.whole .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.whole .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.whole .text-content-box{float: left;}
+.whole .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.whole .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.whole .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.whole .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.whole .center-box{text-align: center;padding-top: 2rem;}
+.whole .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.whole .center-btn-span{font-size: .5rem;}
+.whole .start-ico{color: #aaa;font-size: 1.4rem;}
+.whole .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.whole .btm-grade{/*margin-top: .5rem;*/}
+.whole .btm-left{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.whole .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.whole .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.whole .top-btn1{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.whole .top-btn2{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;/*background: red;*/outline: none;border-style: none;color: #333;font-size: 1rem;}
+.whole .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.whole .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.whole .top-btn3{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #333;}
+.whole .top-btn4{margin-top: .1rem;width: 24%;float: left;height: 2.8rem;margin-right: .2rem;background: #78ABED;/*background: red;*/outline: none;border-style: none;color: #fff;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.whole .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.whole .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+/*我的课程-教师介绍*/
+.teacherCall{background-color: #fff;}
+.teacherCall .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.teacherCall .backico{float: left;padding-top: 1.5rem;}
+.teacherCall .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.teacherCall .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.teacherCall .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.teacherCall .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.teacherCall .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.teacherCall .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.teacherCall .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.teacherCall .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.teacherCall .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.teacherCall .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.teacherCall .text-content-box{float: right;}
+.teacherCall .useimgs-box{float: left;}
+.teacherCall .usename{display:inline-block;margin-top: .5rem;margin-left: 1.4rem;}
+.teacherCall .useimgs{width: 6rem;height: 6rem;border-radius: 50%; margin-top: 2rem;background-color: #666;}
+.teacherCall .center-box{text-align: center;padding-top: 2rem;}
+.teacherCall .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.teacherCall .center-btn-span{font-size: .5rem;}
+.teacherCall .start-ico{color: #aaa;font-size: 1.4rem;}
+.teacherCall .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.teacherCall .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.teacherCall .top-btn1{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;color:#fff; background: #78ABED; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.teacherCall .top-btn2{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;/outline: none;border-style: none;color: #333;font-size: 1rem;}
+.teacherCall .top-btn4{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;outline: none;border-style: none;color: #333;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.teacherCall .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.teacherCall .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.teacherCall .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.teacherCall .text-content-tab{width: 19rem; margin-top: 2rem;}
+.teacherCall .text-content-tab td{font-size: .7rem;padding-top: .4rem;}
+.teacherCall .text-content-tab tr{height: 2rem; }
+.teacherCall .icon-start{font-style: normal;font-size:.5rem;color: #666!important;}
+.teacherCall .hr_width{width: 96%;margin: 2rem auto 0 auto;}
+.teacherCall .rongyu{margin-top: 1rem;padding-left: 2rem;}
+.teacherCall .rongyu p{font-size: 1rem; line-height: 2rem;}
+.teacherCall .first_rongyu{font-weight: bold;}
+
+
+/*我的课程 开设课程*/
+.openclass{background-color: #fff;}
+.openclass .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.openclass .backico{float: left;padding-top: 1.5rem;}
+.openclass .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.openclass .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.openclass .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.openclass .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.openclass .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.openclass .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.openclass .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.openclass .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.openclass .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.openclass .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.openclass .text-content-box{float: left;}
+.openclass .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.openclass .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.openclass .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.openclass .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.openclass .center-box{text-align: center;padding-top: 2rem;}
+.openclass .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.openclass .center-btn-span{font-size: .5rem;}
+.openclass .start-ico{color: #aaa;font-size: 1.4rem;}
+.openclass .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.openclass .btm-grade{/*margin-top: .5rem;*/}
+.openclass .btm-left{width: 49%;display: inline-block;border:1px solid #78ABED;text-align: center;color: red;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.openclass .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.openclass .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.openclass .top-btn1{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.openclass .top-btn2{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #78ABED;outline: none;border-style: none;color: #fff;font-size: 1rem;}
+.openclass .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.openclass .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.openclass .top-btn4{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;outline: none;border-style: none;color: #333;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.openclass .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.openclass .icon-clock{font-style: normal; font-size: 1rem;}
+
+
+
+/*学生评价*/
+.studentCall{background-color: #fff;}
+.studentCall .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.studentCall .backico{float: left;padding-top: 1.5rem;}
+.studentCall .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.studentCall .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.studentCall .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.studentCall .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.studentCall .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.studentCall .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.studentCall .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.studentCall .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.studentCall .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.studentCall .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.studentCall .text-content-box{float: right;width: 70%;}
+.studentCall .text-title-h3{font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.studentCall .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem; height: 5rem;overflow: hidden;}
+.studentCall .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.studentCall .center-box{text-align: center;padding-top: 2rem;}
+.studentCall .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.studentCall .center-btn-span{font-size: .5rem;}
+.studentCall .start-ico{color: #aaa;font-size: 1.4rem;}
+.studentCall .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;}
+.studentCall .btm-grade{/*margin-top: .5rem;*/}
+.studentCall .btm-left{width: 49%;display: inline-block;border:1px solid #78ABED;text-align: center;color: red;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.studentCall .btm-right{width: 49%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: right;line-height: 2.5rem;}
+.studentCall .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.studentCall .top-btn1{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.studentCall .top-btn2{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;outline: none;border-style: none;color: #333;font-size: 1rem;}
+.studentCall .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.studentCall .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.studentCall .top-btn4{margin-top: .1rem;width: 32%;float: left;height: 2.8rem;margin-right: .2rem;background: #78ABED;outline: none;border-style: none;color: #fff;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.studentCall .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.studentCall .useimgs-box{float: left;padding-top: 2rem;border-right: .1rem solid #78ABED;padding-right: 1rem; padding-bottom: 2rem;}
+.studentCall .useimgs{width: 4rem;height: 4rem;background-color: #666;border-radius: 50%;margin-left: 1rem;}
+.studentCall .usename{text-align: center; margin-top: .5rem;}
+.studentCall .icon_strat{color: #666;font-style: normal;font-size: 1.1rem;}
+
+
+/*我的任务 待托管赏金*/
+.mytask11{background-color: #fff;}
+.mytask11 .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.mytask11 .backico{float: left;padding-top: 1.5rem;}
+.mytask11 .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.mytask11 .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.mytask11 .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.mytask11 .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.mytask11 .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.mytask11 .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.mytask11 .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.mytask11 .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.mytask11 .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.mytask11 .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.mytask11 .text-content-box{float: left;}
+.mytask11 .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.mytask11 .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.mytask11 .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.mytask11 .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.mytask11 .center-box{text-align: center;padding-top: 2rem;}
+.mytask11 .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.mytask11 .center-btn-span{font-size: .5rem;}
+.mytask11 .start-ico{color: #aaa;font-size: 1.4rem;}
+.mytask11 .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.mytask11 .btm-grade{/*margin-top: .5rem;*/}
+.mytask11 .btm-left{width: 100%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.mytask11 .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.mytask11 .top-btn1{margin-top: .1rem;width: 22%;float: left;height: 2.8rem;color:#fff; background: #78ABED; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.mytask11 .top-btn2{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;outline: none;border-style: none;color: #333;font-size: 1rem;}
+.mytask11 .top-btn3{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #333;}
+.mytask11 .top-btn4{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;color: #333;outline: none;border-style: none;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.mytask11 .top-btn5{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #333;}
+.mytask11 .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.mytask11 .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.mytask11 .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.mytask11 .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+
+/*我的任务 发布中*/
+.releasdk12{background-color: #fff;}
+.releasdk12 .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.releasdk12 .backico{float: left;padding-top: 1.5rem;}
+.releasdk12 .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.releasdk12 .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.releasdk12 .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.releasdk12 .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.releasdk12 .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.releasdk12 .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.releasdk12 .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.releasdk12 .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.releasdk12 .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.releasdk12 .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.releasdk12 .text-content-box{float: left;}
+.releasdk12 .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.releasdk12 .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.releasdk12 .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.releasdk12 .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.releasdk12 .center-box{text-align: center;padding-top: 2rem;}
+.releasdk12 .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.releasdk12 .center-btn-span{font-size: .5rem;}
+.releasdk12 .start-ico{color: #aaa;font-size: 1.4rem;}
+.releasdk12 .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.releasdk12 .btm-grade{/*margin-top: .5rem;*/}
+.releasdk12 .btm-left{width: 100%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.releasdk12 .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.releasdk12 .top-btn1{margin-top: .1rem;width: 22%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.releasdk12 .top-btn2{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #78ABED;color: #fff;outline: none;border-style: none;font-size: 1rem;}
+.releasdk12 .top-btn3{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #333;}
+.releasdk12 .top-btn4{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;color: #333;outline: none;border-style: none;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.releasdk12 .top-btn5{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #333;}
+.releasdk12 .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk12 .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.releasdk12 .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk12 .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+
+/*我的任务  待回答*/
+.releasdk13{background-color: #fff;}
+.releasdk13 .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.releasdk13 .backico{float: left;padding-top: 1.5rem;}
+.releasdk13 .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.releasdk13 .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.releasdk13 .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.releasdk13 .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.releasdk13 .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.releasdk13 .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.releasdk13 .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.releasdk13 .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.releasdk13 .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.releasdk13 .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.releasdk13 .text-content-box{float: left;}
+.releasdk13 .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.releasdk13 .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.releasdk13 .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.releasdk13 .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.releasdk13 .center-box{text-align: center;padding-top: 2rem;}
+.releasdk13 .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.releasdk13 .center-btn-span{font-size: .5rem;}
+.releasdk13 .start-ico{color: #aaa;font-size: 1.4rem;}
+.releasdk13 .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.releasdk13 .btm-grade{/*margin-top: .5rem;*/}
+.releasdk13 .btm-left{width: 100%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.releasdk13 .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.releasdk13 .top-btn1{margin-top: .1rem;width: 22%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.releasdk13 .top-btn2{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;color: #333;outline: none;border-style: none;font-size: 1rem;}
+.releasdk13 .top-btn3{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #78ABED;color: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.releasdk13 .top-btn4{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;color: #333;outline: none;border-style: none;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.releasdk13 .top-btn5{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;color: #333;}
+.releasdk13 .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk13 .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.releasdk13 .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk13 .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+/*我的任务  已回答*/
+.releasdk14{background-color: #fff;}
+.releasdk14 .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.releasdk14 .backico{float: left;padding-top: 1.5rem;}
+.releasdk14 .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.releasdk14 .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.releasdk14 .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.releasdk14 .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.releasdk14 .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.releasdk14 .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.releasdk14 .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.releasdk14 .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.releasdk14 .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.releasdk14 .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.releasdk14 .text-content-box{float: left;}
+.releasdk14 .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.releasdk14 .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.releasdk14 .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.releasdk14 .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.releasdk14 .center-box{text-align: center;padding-top: 2rem;}
+.releasdk14 .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.releasdk14 .center-btn-span{font-size: .5rem;}
+.releasdk14 .start-ico{color: #aaa;font-size: 1.4rem;}
+.releasdk14 .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.releasdk14 .btm-grade{/*margin-top: .5rem;*/}
+.releasdk14 .btm-left{width: 100%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.releasdk14 .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.releasdk14 .top-btn1{margin-top: .1rem;width: 22%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.releasdk14 .top-btn2{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;color: #333;outline: none;border-style: none;font-size: 1rem;}
+.releasdk14 .top-btn3{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;color: #333;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.releasdk14 .top-btn4{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;background: #fff;color: #333;outline: none;border-style: none;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.releasdk14 .top-btn5{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #78ABED;color: #fff;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.releasdk14 .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk14 .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.releasdk14 .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk14 .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+
+
+
+
+/*我的任务  结题*/
+.releasdk15{background-color: #fff;}
+.releasdk15 .headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.releasdk15 .backico{float: left;padding-top: 1.5rem;}
+.releasdk15 .icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.releasdk15 .title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+.releasdk15 .text-content{padding:0 2rem;/*border: 1px solid red;*/}
+.releasdk15 .input-first{width: 100%;border: .1rem solid #78abed;height: 2.5rem;border-radius:.6rem;padding-left: .7rem;font-size: 1.1rem;margin-top: 1rem;}
+.releasdk15 .sel-grade{width: 33%;margin-top: 1rem;/*float: left;*/display: inline-block;border: .1rem solid #78ABED;border-radius: .6rem;height: 2rem;/*margin-left: 2rem;*/}
+.releasdk15 .sel-name{/*border: 1px solid red;*/display: inline-block;line-height: 2rem;padding-left: 2rem;font-size: .7rem;}
+.releasdk15 .sle-down{color: #aaa;float: right;font-size: 2rem;padding-right: .5rem;color: #78ABED;}
+.releasdk15 .sel-grade-btn{margin-top: 1rem;width: 31%;float: right;height: 2rem;}
+.releasdk15 .sel-grade-btn-btn{display: inline-block;text-align: center;line-height: 2rem;width: 100%;height: 2rem;border-radius: .6rem ;background-color: #78ABED;color: #fff;font-size: 1rem;border: .1rem solid #78ABED;}
+.releasdk15 .sel-grade-btn-btn:hover{color: #CECECE;background-color: #5d8ecd;}
+.releasdk15 .text-content-box{float: left;}
+.releasdk15 .text-title-h3{float: left;font-size: 1.2rem;padding-top: 2rem;padding-bottom: 1rem;}
+.releasdk15 .moneybox{float: right;border: 1px solid #73acef;width: 6rem;line-height: 4.5rem;font-size: 2rem;color: #73ACEF;text-align: center;font-weight: bold;margin-top: 2rem;}
+.releasdk15 .text-content-p p{font-size: 1rem;/*border: 1px solid blue;*/line-height:1.7rem;}
+.releasdk15 .text-content-bot{padding-top: 1rem;line-height: 1.7rem;}
+.releasdk15 .center-box{text-align: center;padding-top: 2rem;}
+.releasdk15 .center-btn{color: #5d5d5d;font-size: 1.2rem;line-height: 1.8rem;}
+.releasdk15 .center-btn-span{font-size: .5rem;}
+.releasdk15 .start-ico{color: #aaa;font-size: 1.4rem;}
+.releasdk15 .midd-box{border: .1rem solid #73acef;margin-top: 1rem;padding-left: 1rem;padding-right: 1rem;padding-bottom: .7rem;}
+.releasdk15 .btm-grade{/*margin-top: .5rem;*/}
+.releasdk15 .btm-left{width: 100%;display: inline-block;background-color: #78ABED;text-align: center;color: #fff;font-size: 1.2rem;float: left;line-height: 2.5rem;}
+.releasdk15 .top-btn{height: 3rem;border: .2rem solid #78ABED;margin-top: 1rem;}
+.releasdk15 .top-btn1{margin-top: .1rem;width: 22%;float: left;height: 2.8rem;color:#333; background: #fff; outline: none;border-style: none;margin-left: .2rem;border-bottom-left-radius: .4rem;border-top-left-radius: .4rem;font-size: 1rem;}
+.releasdk15 .top-btn2{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;margin-left:.2rem;background: #fff;color: #333;outline: none;border-style: none;font-size: 1rem;}
+.releasdk15 .top-btn3{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;color: #333;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.releasdk15 .top-btn4{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;margin-right: .2rem;background: #78ABED;color: #fff;outline: none;border-style: none;border-bottom-right-radius: .4rem;border-top-right-radius: .4rem;font-size: 1rem;}
+.releasdk15 .top-btn5{margin-top: .1rem;width: 18%;float: left;height: 2.8rem;background: #fff;color: #333;outline: none;border-style: none;margin-right: .2rem;margin-left: .1rem;font-size: 1rem;}
+.releasdk15 .top-btn1:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk15 .top-btn2:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}
+.releasdk15 .top-btn3:active{background: #78ABED;color: #333;/*	border: .1rem solid #fff;*/color: #fff;}
+.releasdk15 .top-btn4:active{background: #78ABED;color: #fff;border: .1rem solid #78ABED;}

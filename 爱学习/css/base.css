@@ -1,0 +1,201 @@
+.justify{display: -webkit-box;-webkit-box-align: center;-webkit-box-pack: justify;justify-content: space-between}
+.clear{clear: both;}
+.line-clamp{overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical}
+
+*{margin:0; padding:0;}
+body{background-color:#f5f7f6;}
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+mark,
+meter,
+nav,
+output,
+progress,
+section,
+summary,
+time,
+td{margin: 0;padding: 0}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+address,
+caption,
+cite,
+code,
+em,
+th,
+figcaption{font-weight: 400;font-style: normal}
+fieldset,
+iframe{border: 0}
+caption,
+th{text-align: left}
+table{border-collapse: collapse;border-spacing: 0}
+ul{list-style: none outside}
+ins{text-decoration: none}
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section,
+figure,
+figcaption,
+details,
+summary{display: block}
+img,
+a img{border: 0}
+a,
+button,
+input{-webkit-tap-highlight-color: rgba(255, 0, 0, 0)}
+body{font-size: 13px;font-family: microsoft yahei, "Helvetica Neue", "pingfang sc";color: #666}
+input{outline: 0;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-appearance: none}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button{-webkit-appearance: none!important;margin: 0;outline: 0}
+
+
+html,
+body{-webkit-text-size-adjust: none;text-size-adjust: none;-webkit-user-select: none;user-select: none}
+a:focus,
+input:focus,
+button{-webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+a{text-decoration: none;color: #3b9bff}
+a:link,
+a:hover,
+a:active,
+a:visited{text-decoration: none}
+.clearfix,
+.clear{zoom: 1}
+.clearfix:after,
+.clear:after{display: block;clear: both;content: "\0020";visibility: hidden;height: 0}
+.imgauto,
+.img-auto{display: block;height: auto;max-width: 100%;margin: 0 auto}
+.bgfff{background-color: #fff;}
+.bgprint{background-color:#f5f7f6;}
+.blue{color: #46a0ff}
+.red{color: #fe4979}
+.gray{color: #b4b4b4}
+.c92{color: #929292}
+.cce{color: #cecece}
+.ca9{color: #a9a9a9}
+.orange{color: #f60}
+.green{color: #add632}
+.f16{font-size: 16px}
+.f14{font-size: 14px}
+.f12{font-size: 12px}
+.ml15{margin-left: 15px}
+.ml10{margin-left: 10px}
+.mt10{margin-top: 10px}
+.mr10{margin-right: 10px}
+.mb10{margin-bottom: 10px}
+.mb20{margin-bottom: 20px}
+.mt20{margin-top: 20px}
+.mt30{margin-top: 30px}
+.mb5{margin-bottom: 5px}
+.mt5{margin-top: 5px}
+.ml5{margin-left: 5px}
+.pb20{padding-bottom: 20px}
+.plr10{padding: 0 10px}
+.plr20{padding: 0 20px}
+.p10{padding: 10px}
+.f-s-12{font-size: 12px;}
+
+
+
+body .hide,
+body .fn-hide{display: none!important}
+body .show{display: inline-block}
+.v-hidden{visibility: hidden}
+.v-visible{visibility: visible}
+.img-block img{display: block}
+img.nobg{background: 0 0}
+.fl{float: left}
+.fr{float: right}
+.text-right{text-align: right}
+.text-center{text-align: center}
+.db{display: -webkit-flex;display: -webkit-box;display: -ms-flexbox;display: flex}
+body{margin: 0 auto; min-height: 100%;}
+
+/*简约横线input*/
+.lineinput{   
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+			    -webkit-appearance: none;    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+			    margin: 0;
+			    padding: 0;
+			    border: 0;
+			    outline: 0;
+			    height: 30px;
+			    line-height: 30px;
+			    font-size: 1.3rem;
+			    background-color: rgba(57, 64, 80, 0);
+			    color: white;
+}
+.tap:active{opacity: .7;}
+/*css3 动画*/
+.show-left{z-index: 1000;-webkit-animation: fuiFadeInRight .5s .2s ease both;}
+.show-top{z-index: 1000;-webkit-animation: fuiFadeInUpBig .5s .2s ease both;}
+.show-in{z-index: 1000;-webkit-animation: fuiFadeIn .5s .2s ease both;}
+@-webkit-keyframes fadeOut{0%{opacity: 1}
+100%{opacity: 0}}
+@keyframes fadeOut{0%{opacity: 1}
+100%{opacity: 0}}
+@-webkit-keyframes fadeIn{0%{-webkit-transform: translateY(5px);opacity: 0}
+100%{-webkit-transform: translateY(0);opacity: 1}}
+@keyframes fadeIn{0%{transform: translateY(5px);opacity: 0}
+100%{transform: translateY(0);opacity: 1}}
+@-webkit-keyframes fadeInRight{0%{-webkit-transform: translate3d(100%, 0, 0);opacity: 0}
+100%{-webkit-transform: translate3d(0, 0, 0);opacity: 1}}
+@keyframes fadeInRight{0%{transform: translate3d(100%, 0, 0);opacity: 0}
+100%{transform: translate3d(0, 0, 0);opacity: 1}}
+@-webkit-keyframes fadeInUpBig{0%{opacity: 0;-webkit-transform: translateY(500px)}
+100%{opacity: 1;-webkit-transform: translateY(0)}}
+@keyframes fadeInUpBig{0%{opacity: 0;transform: translateY(500px)}
+100%{opacity: 1;transform: translateY(0)}}
+
+/*提示*/
+.message-box {
+    position:fixed; top:47%; width:100%; padding:10px; text-align:center; box-sizing:border-box;
+}
+.message-txt {
+    padding:8px 15px; background:#000; opacity:.8; color:#fff; text-align:center; border-radius:10px;
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 373140 */
+  src: url('//at.alicdn.com/t/font_cihy0ab9vi2uik9.eot');
+  src: url('//at.alicdn.com/t/font_cihy0ab9vi2uik9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_cihy0ab9vi2uik9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_cihy0ab9vi2uik9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_cihy0ab9vi2uik9.svg#iconfont') format('svg');
+}
+
+.icon {font-size:1.2rem; font-family:'iconfont'!important; font-style:normal;  -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: .2px; -moz-osx-font-smoothing: grayscale; color: #b8b3b4; }
+.icon-logo:before{ content:"\e602" !important;}
+.icon-left:before{ content:"\e62b" !important; color:white;}
+.icon-task:before{ content:"\e62f" !important; color:white;}
+
+.headerbox{/*height: 6.5rem;*/background-color: #75aced;padding-left: .5rem;padding-right: .5rem;/*border: 1px solid red;*/}
+.backico{float: left;padding-top: 1.5rem;}
+.icon-search{font-size: 2.4rem;font-family: iconfont;color: white;}
+.title-text{text-align: center;font-size: 1.5rem;color: white;/*border: 1px solid red;*/padding-top: 1.5rem;padding-right: 1rem;padding-bottom: 1.5rem;}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 375636 */
+  src: url('//at.alicdn.com/t/font_qpc0idfr8pycik9.eot');
+  src: url('//at.alicdn.com/t/font_qpc0idfr8pycik9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_qpc0idfr8pycik9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_qpc0idfr8pycik9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_qpc0idfr8pycik9.svg#iconfont') format('svg');
+}
